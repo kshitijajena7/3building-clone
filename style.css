@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Metrophobic', sans-serif;
+}
+.contain{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+ background-color: #262a2d;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.small-box{
+ width: 70%;
+ height: 700px;
+    background-color: white;
+    border-radius: 30px 30px ;
+    padding: 60px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.logo img{
+
+}
+.main{
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+  
+}
+.text-main{
+    letter-spacing: 2px;
+   
+    font-size: 20px;
+}
+.text-main h1{
+    font-weight: 700;
+    font-size: 29px;
+    color: #262a2d;
+}
+.text-main p{
+    font-size: 12px;
+    padding-top: 40px;
+
+}
+.half button{
+    border-radius: 20px;
+    height: 30px;
+    width: 120px;
+    background-color: #262a2d;
+    color: white;
+}
+.black {
+    padding-top: 30PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.black button{
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    background-color: #262a2d;
+    color: white;
+}
+
+.image {
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.img-1{
+    padding-bottom: 4px;
+}
+.img-3{
+    margin-top: 7px;
+}
+
+
+@media (max-width:768px) {
+.small-box{
+    width: 100%;
+    height: 100vh;
+    border-radius: 0;
+
+    
+}
+
+.logo img {
+ 
+}
+
+.button{
+    display: none;
+}
+
+.main{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+.text-main h1{
+    font-weight: 600;
+    font-size: 25px;
+    color: #262a2d;
+}
+
+.image{
+    width: 100%;
+    /* height: 60vh; */
+    flex-direction: column;
+  border-radius: 0%;
+}
+
+.image img{
+   object-position: center;
+}
+.img-1{
+    width: 100%;
+    height: 60vh;
+    border-radius: 0%;
+    padding-bottom: 0px;
+}
+.img-2{
+    width: 100%;
+    height: 60vh;
+    border-radius: 0%;
+ 
+    
+}
+.img-3{
+    width: 100%;
+    height: 60vh;
+ border-radius: 0%;
+   
+}
+
+
+}
